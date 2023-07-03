@@ -22,7 +22,6 @@ const AppBar = () => {
       <Pressable style={styles.tab} onPress={() => {}}>
         <Text style={styles.tabText} fontWeight="bold" >Repositories</Text>
       </Pressable>
-      {/* Add more tabs as needed */}
     </View>
   );
 };
