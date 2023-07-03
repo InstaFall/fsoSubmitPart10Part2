@@ -1,7 +1,6 @@
 import { View, Text } from "react-native";
 
 const RepositoryItem = ({ repository }) => {
-    console.log("Repo: ", repository)
     const {
       fullName,
       description,
